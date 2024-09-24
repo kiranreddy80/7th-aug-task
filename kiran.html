@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           // 1.print sum of ten natural numbers
+           let sum = 0;
+for (let i = 1; i <= 10; i++) {
+    sum += i;
+}
+console.log("The sum of the first 10 natural numbers is:", sum);
+// 2.print sum of even and odd numbers upto 10
+let evenSum = 0;
+let oddSum = 0;
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        evenSum += i;  // Add to even sum
+    } else {
+        oddSum += i;   // Add to odd sum
+    }
+}
+
+console.log("Sum of even numbers up to 10 is:", evenSum);
+console.log("Sum of odd numbers up to 10 is:", oddSum);
+    </script>
+</body>
+</html>
